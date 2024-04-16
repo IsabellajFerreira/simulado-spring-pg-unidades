@@ -5,7 +5,7 @@ import br.com.fiap.unidades.entity.Usuario;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.FutureOrPresent;
 import jakarta.validation.constraints.NotNull;
-import jakarta.validation.constraints.Size;
+
 
 import java.time.LocalDateTime;
 

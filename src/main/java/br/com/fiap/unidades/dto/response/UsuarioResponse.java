@@ -1,8 +1,8 @@
 package br.com.fiap.unidades.dto.response;
 
-import br.com.fiap.unidades.entity.Pessoa;
-import jakarta.persistence.Column;
+import lombok.Builder;
 
+@Builder
 public record UsuarioResponse(
        Long id,
        String username,

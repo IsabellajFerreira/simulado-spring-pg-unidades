@@ -1,10 +1,8 @@
 package br.com.fiap.unidades.dto.request;
 
 import br.com.fiap.unidades.entity.Unidade;
-import jakarta.persistence.Column;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.NotNull;
-import jakarta.validation.constraints.Size;
 
 public record UnidadeRequest(
 

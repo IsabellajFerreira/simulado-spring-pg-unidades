@@ -1,11 +1,10 @@
 package br.com.fiap.unidades.dto.response;
 
-import br.com.fiap.unidades.entity.Unidade;
-import br.com.fiap.unidades.entity.Usuario;
-import jakarta.persistence.Column;
+
+import lombok.Builder;
 
 import java.time.LocalDateTime;
-
+@Builder
 public record ChefeResponse(
 
 
