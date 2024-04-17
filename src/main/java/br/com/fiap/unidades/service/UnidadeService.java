@@ -30,11 +30,6 @@ public class UnidadeService {
                 .descricao( r.descricao() )
                 .build();
     }
-        String nome,
-
-    String sigla,
-
-    String descricao,
 
     UnidadeResponse macro
     @Override
